@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"
+    />
+  </head>
+  <body>
+    <script src="./index.js"></script>
+    <img src="../../2.jpg" />
+    <script src="./100.js"></script>
+
+    <script src="http://localhost:3000/a.js"></script>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+      $.post("http://localhost:3000/bbb", { a: 2 }, function (res) {
+        console.log(res);
+      });
+      $.get("http://localhost:3000/aaa?n=1&m=2", function (res) {
+        console.log(res);
+      });
+      // $.get("http://localhost:3000/amd", function (res) {
+      //   console.log(res);
+      // });
+    </script>
+  </body>
+</html>
