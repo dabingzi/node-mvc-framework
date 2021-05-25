@@ -183,7 +183,7 @@
     history.replaceState = myhistoryReplace;
   }
 
-  // 裙带菜，金针菇，黄喉，毛肚，鸭肠，鸭胗，牛肉，羊肉，虾滑。花生酱芝麻酱沙茶酱
+  // 海芽菜，金针菇，黄喉，毛肚，鸭肠，鸭胗，牛肉，羊肉，虾滑。花生酱芝麻酱沙茶酱
   /********************************************************** */
 
   window.addEventListener("beforeunload", logData, false); // 移动端 addEventListener('pagehide')
